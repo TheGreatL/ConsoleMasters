@@ -16,10 +16,11 @@ header{
     position: sticky;
     top: 0;
     margin-bottom: 10px;
+    
 }
 .Top-Header{
    display: grid;
-   grid-template-columns: 400px 1fr 200px;
+   grid-template-columns: 2fr 5fr 1fr;
    padding-left: 10px;
    background-color: rgb(24, 46, 215);
    padding-right: 10px;
@@ -117,7 +118,7 @@ main{
 }
 .Carousell-Container img{
     width: 100%;
-    height: 500px;
+    height: 50%;
 
 }
 .FlashSales{
