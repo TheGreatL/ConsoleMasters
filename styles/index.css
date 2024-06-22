@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border: none;
+    
+}
+body{
+    background-color: rgb(24, 46, 215);
+    padding-bottom: 30px;
+  
+}
+header{
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+}
+.Top-Header{
+   display: grid;
+   grid-template-columns: 400px 1fr 200px;
+   padding-left: 10px;
+   background-color: rgb(24, 46, 215);
+   padding-right: 10px;
+}
+.Logo-Container{
+    cursor: pointer;
+
+}
+.Logo{
+    font-size: 30px;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+}
+.Logo img{
+    width: 20%;
+    vertical-align: middle;
+}
+.Tagline{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+}
+.Search-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Search-Container input{
+    width: 70%;
+    min-width: 2%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+
+}
+.Search-Container input:focus{
+    outline: none;
+}
+.Search-Container button{
+    padding: 10px;
+    height: 60%;
+    background-color: rgb(241, 237, 237);
+    color: rgb(241, 237, 237);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Account-Container{
+    font-size: 30px;
+    word-spacing: 1;
+    font-weight: 900;
+    
+   
+    align-self: center;
+    text-align: center;
+}
+.Navigation{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+    overflow: hidden;
+}
+.Navigation ul{
+    list-style-type: none;
+    display: flex;
+
+}
+.Navigation li{
+    flex: 1;
+    border-left: 1px solid black;
+ 
+}
+.Navigation ul li a{
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: 3px solid white;
+    display: block;
+}
+.Navigation ul li a:hover{
+    background-color: rgb(24, 46, 215);
+   
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.Carousell-Container img{
+    width: 100%;
+    height: 500px;
+
+}
+.FlashSales{
+    margin-top: 30px;
+    width: 90%;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+.FlashSales p{
+    color:  red;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px;
+}
+.Sale-Items-Container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+  
+ 
+}
+.Sale-Items-Container div{
+    background-color: lightgray;
+   
+    margin-left: 10px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    height: 500px;
+  
+    
+}
+.Sale-Items-Container div img{
+    width: 80%;
+   
+    
+    object-fit: contain;
+
+}
+.Sale-Items-Container p{
+    margin: 0px;
+    font-size: 20px;
+    color: black;
+}
+
+   
+
+
