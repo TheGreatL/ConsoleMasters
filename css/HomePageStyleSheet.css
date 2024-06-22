@@ -50,6 +50,7 @@ header{
     justify-content: center;
     align-items: center;
     
+    
 }
 .Search-Container input{
     width: 70%;
@@ -68,10 +69,14 @@ header{
 .Search-Container button{
     padding: 10px;
     height: 60%;
+    width: 5%;
     background-color: rgb(241, 237, 237);
     color: rgb(241, 237, 237);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+.Search-Container button img{
+    width: 100%;
 }
 .Account-Container{
     font-size: 30px;
@@ -152,8 +157,7 @@ main{
     display: flex;
     cursor: pointer;
     flex-direction: column;
-    height: 500px;
-  
+ 
     
 }
 .Sale-Items-Container div img{
